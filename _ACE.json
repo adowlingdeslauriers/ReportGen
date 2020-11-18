@@ -1,0 +1,59 @@
+[
+    {
+        "ORDERID": "12345678",
+        "BATCHID": "123456",
+        "data": "ACE_SHIPMENT",
+        "type": "SECTION_321",
+        "shipmentControlNumber": "SCAC012345678901",
+        "provinceOfLoading": "ON",
+        "shipper": {
+            "name": "Stalco Inc.",
+            "address": {
+                "addressLine": "401 Clayson Road",
+                "country": "CA",
+                "city": "Toronto",
+                "stateProvince": "ON",
+                "postalCode": "M9M2H4"
+            }
+        },
+        "consignee": {
+            "name": "Mr. Fakenamington",
+            "address": {
+                "addressLine": "123 Fake Street",
+                "country": "US",
+                "city": "Bielefield",
+                "stateProvince": "DE",
+                "postalCode": "12345"
+            }
+        },
+        "commodities": [
+            {
+                "description": "Big Box of Dildoes (Assorted)",
+                "quantity": 1.0,
+                "packagingUnit": "BOX",
+                "weight": 1,
+                "weightUnit": "L",
+                "value": "1000.00",
+                "countryOfOrigin": "CA"
+            },
+            {
+                "description": "Mysterious White Powder",
+                "quantity": 1.0,
+                "packagingUnit": "BOX",
+                "weight": 1,
+                "weightUnit": "L",
+                "value": "2000.00",
+                "countryOfOrigin": "CA"
+            },
+            {
+                "description": "Hillary Clinton's Emails (Printout)",
+                "quantity": 1.0,
+                "packagingUnit": "BOX",
+                "weight": 1,
+                "weightUnit": "L",
+                "value": "4800.00",
+                "countryOfOrigin": "US"
+            }
+        ]
+    }
+}
